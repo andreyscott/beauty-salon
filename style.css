@@ -632,7 +632,7 @@ form input:not([type="submit"]), form textarea { padding: 20px 20px; background:
 /* Header Styles */
 .site-header { z-index: 999; *zoom: 1; }
 .site-header:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
-.site-header .container { padding: 50px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); *zoom: 1; }
+.site-header .container { padding: 15px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); *zoom: 1; }
 .site-header .container:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 .header-collapse .site-header { position: absolute; left: 0; width: 100%; top: 0; }
 
