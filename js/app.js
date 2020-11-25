@@ -89,6 +89,9 @@
 
 	    // $(".gallery-item a").imageLightbox();
 
+
+
+		
 	    if( $(".map").length ) {
 			$('.map').gmap3({
 				map: {
@@ -97,7 +100,7 @@
 					}  
 				},
 				marker:{
-					address: "40 Sibley St, Detroit",
+					address: "55 uwa st, Edo state ",
 				}
 			},
 			"autofit" );
