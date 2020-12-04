@@ -29,8 +29,8 @@
 					<a id="branding" href="index.html">
 						<img src="images/logo.png" alt="Company name" class="logo">
 						<div class="logo-copy">
-							<h1 class="site-title">Company Name</h1>
-							<small class="site-description">Slogan goes here</small>
+							<h1 class="site-title">EJ Touch</h1>
+							<small class="site-description">The magic touch</small>
 						</div>
 					</a> <!-- #branding -->
 
@@ -53,31 +53,30 @@
 			<main class="main-content">
 				<div class="page">
 					<div class="container">
-						<p>you can book an appointment here ok </p>
+						<p>you can book an appointment here or contact us on Whatsapp @ +2347050309409 </p>
 
 						<div class="row">
 							<div class="col-md-5">
 								<form action="HTTP" class="contact-form">
 									<input type="text" id="name" placeholder="Name...">
 									<input type="text" id="email" placeholder="Email...">
-									<input type="text" id="website" placeholder="Website...">
 									<textarea name="" id="message" placeholder="Message..."></textarea>
-									<div class="text-right">
+									<div class="text-right">📷🖤
 										<button class="button large" type="submit">Send Message</button>
 									</div>
 								</form>
 		 					</div>
 							<div class="col-md-6 col-md-offset-1">
 								<div class="map-container">
-									<div class="map"></div>
+									<div id="map" class="map"></div>
 									<div class="address-info">
 										<address>
 											<img src="images/icon-map-small.png" class="icon">
-											<p><strong>Company name</strong> 563 Avenue Street, New York</p>
+											<p><strong>Ej touch</strong>No 55 uwa street  off dumez road near sapele road, Benin-city Edo-state </p>
 										</address>
 										<div class="contact-info">
-											<a href="mailto:andreyscott301@gmail.com" class="mail"><img src="images/icon-envelope-small.png" class="icon">contact@me here</a>
-											<a href="tel:(234)8164078594" class="phone"><img src="images/icon-phone-small.png" class="icon">(234)81640785</a>
+											<a href="mailto:" class="mail"><img src="images/icon-envelope-small.png" class="icon">contact@me here</a>
+											<a href="tel:(234)07050309409" class="phone"><img src="images/icon-phone-small.png" class="icon">(234)07050309409</a>
 										</div>
 									</div>
 								</div>
@@ -86,7 +85,6 @@
 					</div>
 				</div>
 			</main>
-
 			<footer class="site-footer">
 				<div class="container">
 					<div class="row">
@@ -96,50 +94,84 @@
 								<div class="contact-info">
 									<address>
 										<img src="images/icon-map-small.png" class="icon">
-										<p><strong>Company name</strong> 563 Avenue Street, New Yorker</p>
+										<p><strong>EJ touch</strong>No 55 uwa street  off dumez road near sapele road, Benin-city Edo-state</p>
 									</address>
-									<a href="mailto:andreyirorere247@gmail.com" class="mail"><img src="images/icon-envelope-small.png" class="icon">contact@companyname.com</a>
-									<a href="tel:(500)942042259" class="phone"><img src="images/icon-phone-small.png" class="icon">(500)942042259</a>
+									<a href="mailto:andreyscott301@gmail.com" class="mail"><img src="images/icon-envelope-small.png" class="icon">Gmail contact</a>
+									<a href="tel:(+234)07050309409" class="phone"><img src="images/icon-phone-small.png" class="icon">07050309409</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3">
 							<div class="widget">
-								<h3 class="widget-title">Social Media</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident et praesentium </p>
+								<h3 class="widget-title">our Social Media</h3>
+								<p>you can contact us on our social-media platfrom by click on the links below</p>
 								<div class="social-links">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="https://web.facebook.com/ejiro.ruth.1"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
+									<a href="https://www.instagram.com/ejiro__world"><i class="fa fa-instagram"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="widget">
 								<h3 class="widget-title">Newsletter</h3>
+								<p>Subscribe to our news letter below</p>
 								<form action="#" class="subscribe-form">
 									<input type="email" placeholder="Enter our email...">
-									<input type="submit" value="Sign up">
+									<input type="submit" value="Sign  up">
 								</form>
 							</div>
 						</div>
 					</div>
+					<div class="row"> 
+					<div class="col-md-3">
+						<div class="widget">
+							<h3 class="widget-title">Website creator</h3>
+							<p>for booking or enquries contact Andreyscott</p>
+							<div class="social-links">
+								<a href="https://web.facebook.com/andrey.king.188"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.instagram.com/andrayscott"><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+								<a href="https://github.com/andreyscott"><i class="fa fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+					</div>
 
 					<div class="colophon">
-						<p>Copyright 2014 Company name. Designed by Themezy. All rights reserved.</p>
+						<p>2020 Ej Touch. Designed by Andreyscott. </p>
 					</div>
 				</div>
 			</footer>
 		</div>
 		
 
+		<script>
+			function initMap() {
+				var place = {
+					lat: 6.342450,
+					lng: 5.633840
+				}
+    var location = { lat: 6.309881,
+                     lng: 5.635625};
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: place,
+	});
+	var marker = new google.maps.Marker({
+		position: location,
+		map: map
+	})
+}
+		</script>
+
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/app.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEmGuIceexKma4Q6yyRD8M-KS5vbPtUVM"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN7Q7daEP8W4pyppE5VfeG2UqsTHy7UNc&callback=initMap"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
+		<script src="map.js"></script>
 		
 	</body>
 
