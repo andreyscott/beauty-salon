@@ -91,16 +91,17 @@
 
 
 
-		
-	    if( $(".map").length ) {
+		if( $(".map").length ) {
 			$('.map').gmap3({
 				map: {
 					options: {
 						maxZoom: 14 
 					}  
 				},
+
+				center: {lat: -25.363, lng: 131.044},
 				marker:{
-					address: "55 uwa st, Edo state ",
+					address: "40 Sibley St, Detroit",
 				}
 			},
 			"autofit" );
